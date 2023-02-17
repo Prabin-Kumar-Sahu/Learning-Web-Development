@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alignment</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julee&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        border: 5px solid black;
+        width: 650px;
+        margin: 50px auto;
+      }
+      .item {
+        border: 5px solid rgb(235, 19, 106);
+        margin: 4px;
+        padding: 10px;
+        background-color: rgb(14, 73, 19);
+        color: white;
+      }
+      body {
+        background-color: rgb(237, 232, 171);
+        /* -family: 'Zeyada', cursive; */
+        /* font-family: 'Zeyada', cursive; */
+
+        font-family: "Open Sans", sans-serif;
+      }
+      #fruits{
+        float: left;
+        width: 50%;
+      }
+      #computer{
+        float: left;
+        width: 50%;
+      }
+      #stationary{
+        float: left;
+        width: 100%;
+      }
+      p{
+        text-align: center;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="fruits" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitspara" class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos
+          debitis, qui impedit ducimus nisi? Explicabo, exercitationem
+          accusamus. Minima, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam qui at officiis perferendis alias voluptates fuga, amet optio corrupti.
+        </p>
+      </div>
+      <div id="computer" class="item">
+        <h3>computer</h3>
+        <p id="computerspara" class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+          beatae. Magni veniam at tempore voluptas hic deserunt similique dicta
+          ex.
+        </p>
+      </div>
+      <div id="stationary" class="item">
+        <h3>stationary</h3>
+        <p id="stationarypara" class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          adipisci nulla nisi deserunt eius sed blanditiis repudiandae
+          exercitationem. Sint, velit!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
